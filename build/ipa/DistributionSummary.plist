@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Lumen.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>F282582E54A5B311E3D8CB55A60863C06856E79F</string>
+				<key>dateExpires</key>
+				<string>2026/7/25</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>64V8RUAKWF.name.Lumen</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>64V8RUAKWF</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Lumen.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c294d585-86f9-42c1-bbe7-1fb95b93254e</string>
+				<key>dateExpires</key>
+				<string>2025/8/3</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: name.Lumen</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>64V8RUAKWF</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,135 @@
+2025-07-26 22:01:07 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x115fd6760; archive(resolved)="<IDEArchive: 0x115f5bc50>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team(resolved)="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x115fd6760; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x115fd64d0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x115fd6180; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x11339dc10; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x11339cdd0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x132605aa0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x118b312b0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x118b2e0f0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x115f7f6f0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="<IDEProvisioningBasicTeam: 0x115f8de80; teamID='64V8RUAKWF', teamName='(null)'>">
+	<IDEDistributionContext: 0x1153ab8e0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="(null)">
+	<IDEDistributionContext: 0x1153aa920; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="(null)">
+	<IDEDistributionContext: 0x1153a9820; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="(null)">
+	<IDEDistributionContext: 0x11335dc90; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11539a880>", team="(null)">
+	<IDEDistributionContext: 0x115f5bff0; archive = "<IDEArchive: 0x115f5bc50>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x115fd6760>
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-07-26 22:01:07 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app' '/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root/Payload/Lumen.app'
+2025-07-26 22:01:07 +0000  >>> Copying /Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app 
+2025-07-26 22:01:07 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-07-26 22:01:07 +0000  3191 bytes for ./_CodeSignature/CodeResources
+2025-07-26 22:01:07 +0000  copying file ./Metadata.appintents/version.json ... 
+2025-07-26 22:01:07 +0000  50 bytes for ./Metadata.appintents/version.json
+2025-07-26 22:01:07 +0000  copying file ./Metadata.appintents/nlu/nlu.lzfse ... 
+2025-07-26 22:01:07 +0000  2839 bytes for ./Metadata.appintents/nlu/nlu.lzfse
+2025-07-26 22:01:07 +0000  copying file ./Metadata.appintents/nlu/f6a20724aa6732dedc0611139ef72e19.version ... 
+2025-07-26 22:01:07 +0000  1 bytes for ./Metadata.appintents/nlu/f6a20724aa6732dedc0611139ef72e19.version
+2025-07-26 22:01:07 +0000  copying file ./Metadata.appintents/extract.actionsdata ... 
+2025-07-26 22:01:07 +0000  8548 bytes for ./Metadata.appintents/extract.actionsdata
+2025-07-26 22:01:07 +0000  copying file ./Lumen ... 
+2025-07-26 22:01:07 +0000  939616 bytes for ./Lumen
+2025-07-26 22:01:07 +0000  copying file ./embedded.mobileprovision ... 
+2025-07-26 22:01:07 +0000  12187 bytes for ./embedded.mobileprovision
+2025-07-26 22:01:07 +0000  copying file ./Info.plist ... 
+2025-07-26 22:01:07 +0000  1403 bytes for ./Info.plist
+2025-07-26 22:01:07 +0000  copying file ./PkgInfo ... 
+2025-07-26 22:01:07 +0000  8 bytes for ./PkgInfo
+2025-07-26 22:01:07 +0000 [MT] /usr/bin/ditto exited with 0
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-07-26 22:01:07 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-07-26 22:01:07 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-07-26 22:01:07 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-07-26 22:01:07 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-07-26 22:01:07 +0000 [MT] Item /Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-07-26 22:01:07 +0000 [MT] Archs to thin for item /Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app are ["arm64e"]
+2025-07-26 22:01:07 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root/Payload/Lumen.app/Lumen' '-verify_arch' 'arm64e'
+2025-07-26 22:01:07 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-07-26 22:01:07 +0000 [MT] Skipping architecture thinning for item "Lumen" because arch "arm64e" wasn't found
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-07-26 22:01:07 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-07-26 22:01:07 +0000 [MT] Entitlements for <IDEDistributionItem: 0x118b2fd20; bundleID='name.Lumen', path='<DVTFilePath:0x115f5b770:'/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x115f83df0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x115fd2b50; name='Apple Development: 2793400367@qq.com (Q8VLYVY8V7)', hash='F282582E54A5B311E3D8CB55A60863C06856E79F', serialNumber='7469B3789DF8827DEBF414759A7EBA69', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-07-25 13:41:34 +0000''>', entitlements='{
+    "application-identifier" = "64V8RUAKWF.name.Lumen";
+    "com.apple.developer.team-identifier" = 64V8RUAKWF;
+    "get-task-allow" = 1;
+}', teamID='64V8RUAKWF', identifier='name.Lumen', executablePath='<DVTFilePath:0x118b075c0:'/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app/Lumen'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "64V8RUAKWF.name.Lumen";
+    "com.apple.developer.team-identifier" = 64V8RUAKWF;
+    "get-task-allow" = 1;
+}
+2025-07-26 22:01:07 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-07-26 22:01:07 +0000 [MT] Entitlements for <IDEDistributionItem: 0x118b2fd20; bundleID='name.Lumen', path='<DVTFilePath:0x115f5b770:'/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x115f83df0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x115fda3f0; name='Apple Development: 2793400367@qq.com (Q8VLYVY8V7)', hash='F282582E54A5B311E3D8CB55A60863C06856E79F', serialNumber='7469B3789DF8827DEBF414759A7EBA69', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-07-25 13:41:34 +0000''>', entitlements='{
+    "application-identifier" = "64V8RUAKWF.name.Lumen";
+    "com.apple.developer.team-identifier" = 64V8RUAKWF;
+    "get-task-allow" = 1;
+}', teamID='64V8RUAKWF', identifier='name.Lumen', executablePath='<DVTFilePath:0x118b075c0:'/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app/Lumen'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "64V8RUAKWF.name.Lumen";
+    "com.apple.developer.team-identifier" = 64V8RUAKWF;
+    "get-task-allow" = 1;
+}
+2025-07-26 22:01:07 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x118b2fd20; bundleID='name.Lumen', path='<DVTFilePath:0x115f5b770:'/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x115f83df0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x118b3c700; name='Apple Development: 2793400367@qq.com (Q8VLYVY8V7)', hash='F282582E54A5B311E3D8CB55A60863C06856E79F', serialNumber='7469B3789DF8827DEBF414759A7EBA69', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-07-25 13:41:34 +0000''>', entitlements='{
+    "application-identifier" = "64V8RUAKWF.name.Lumen";
+    "com.apple.developer.team-identifier" = 64V8RUAKWF;
+    "get-task-allow" = 1;
+}', teamID='64V8RUAKWF', identifier='name.Lumen', executablePath='<DVTFilePath:0x118b075c0:'/Users/youpeixing/ws/Lumen/build/Lumen.xcarchive/Products/Applications/Lumen.app/Lumen'>', hardenedRuntime='0'>'> to: /var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/entitlements~~~P6iyT7
+2025-07-26 22:01:07 +0000 [MT] invoking codesign: <NSConcreteTask: 0x115fd30d0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    F282582E54A5B311E3D8CB55A60863C06856E79F,
+    "--entitlements",
+    "/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/entitlements~~~P6iyT7",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root/Payload/Lumen.app"
+)'>
+2025-07-26 22:01:07 +0000 [MT] codesign output: /var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root/Payload/Lumen.app: replacing existing signature
+/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root/Payload/Lumen.app: signed app bundle with Mach-O thin (arm64) [name.Lumen]
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-07-26 22:01:07 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-07-26 22:01:07 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root' '/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Packages/Lumen.ipa'
+2025-07-26 22:01:07 +0000  >>> Copying /var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root 
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/_CodeSignature/CodeResources ... 
+2025-07-26 22:01:07 +0000  3191 bytes for ./Payload/Lumen.app/_CodeSignature/CodeResources
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/Metadata.appintents/version.json ... 
+2025-07-26 22:01:07 +0000  50 bytes for ./Payload/Lumen.app/Metadata.appintents/version.json
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/Metadata.appintents/nlu/nlu.lzfse ... 
+2025-07-26 22:01:07 +0000  2839 bytes for ./Payload/Lumen.app/Metadata.appintents/nlu/nlu.lzfse
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/Metadata.appintents/nlu/f6a20724aa6732dedc0611139ef72e19.version ... 
+2025-07-26 22:01:07 +0000  1 bytes for ./Payload/Lumen.app/Metadata.appintents/nlu/f6a20724aa6732dedc0611139ef72e19.version
+copying file ./Payload/Lumen.app/Metadata.appintents/extract.actionsdata ... 
+2025-07-26 22:01:07 +0000  8548 bytes for ./Payload/Lumen.app/Metadata.appintents/extract.actionsdata
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/Lumen ... 
+2025-07-26 22:01:07 +0000  939616 bytes for ./Payload/Lumen.app/Lumen
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/embedded.mobileprovision ... 
+2025-07-26 22:01:07 +0000  12187 bytes for ./Payload/Lumen.app/embedded.mobileprovision
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/Info.plist ... 
+2025-07-26 22:01:07 +0000  1403 bytes for ./Payload/Lumen.app/Info.plist
+2025-07-26 22:01:07 +0000  copying file ./Payload/Lumen.app/PkgInfo ... 
+8 bytes for ./Payload/Lumen.app/PkgInfo
+2025-07-26 22:01:07 +0000 [MT] /usr/bin/ditto exited with 0
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-07-26 22:01:07 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-07-26 22:01:07 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x115f68930:'/var/folders/vd/6wr82by908b63gjvghkmn4qc0000gn/T/XcodeDistPipeline.~~~Tz8Jtb/Root/Payload/Lumen.app'>
+2025-07-26 22:01:07 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
