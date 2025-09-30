@@ -1,2 +1,2 @@
-# Lumen
-New Interaction: AI + Camera + Earphone
+# a Hackathon Project for AdventureX2025
+We are making the new intelligent interaction era: AI + Camera + Earphone!
